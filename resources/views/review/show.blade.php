@@ -59,7 +59,7 @@
                             <h1><b>{{ ucfirst(trans($review->title)) }}</b></h1>
                             <p>{{ ucfirst(trans($review->excerpt)) }}</p>
                             <div class="mb-3 content text-left" style="border-bottom: 10px solid rgba(0,0,0,.04); padding-left: 1%; padding-right: 1%"></div>
-                            <div class="content text-left">{!! $review->message !!}</div>
+                            <div class="review-message content text-left">{!! $review->message !!}</div>
                             @if(!$images->isEmpty())
                                 <div class="content text-left mb-2" style="border-bottom: 10px solid rgba(0,0,0,.04); padding-left: 1%; padding-right: 1%"></div>
                                 <div class="content text-left py-3" style="border-bottom: 10px solid rgba(0,0,0,.04); padding-left: 1%">

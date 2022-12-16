@@ -529,3 +529,7 @@ table.table .avatar {
         transform: rotate(1turn);
     }
 }
+
+.review-message * {
+    word-wrap: break-word;
+}
